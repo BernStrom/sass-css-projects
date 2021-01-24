@@ -21,44 +21,88 @@
 
     <body>
         <div class="container">
-            <header class="header">
+            <header class="header"> <!-- PAGE HEADER -->
                 <img src="img/logo.png" alt="Trillo logo" class="logo">
 
-                <form action="#" class="search">
+                <form action="#" class="search"> <!-- SEARCH BAR -->
                     <input type="text" class="search__input" placeholder="Search hotels">
                     <button class="search__button">
-                        <svg class="search__icon">
+                        <svg class="search__icon"> <!-- SEARCH BAR ICON -->
                             <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
-                        </svg>
+                        </svg> <!-- SEARCH BAR ICON END -->
                     </button>
-                </form>
+                </form> <!-- SEARCH BAR END -->
 
-                <nav class="user-nav">
-                    <div class="user-nav__icon-box">
-                        <svg class="user-nav__icon">
+                <nav class="user-nav"> <!-- USER NAV ICONS -->
+                    <div class="user-nav__icon-box"> <!-- PROFILE BOOKMARK ICON -->
+                        <svg class="user-nav__icon"> 
                             <use xlink:href="img/sprite.svg#icon-bookmark"></use>
                         </svg>
                         <span class="user-nav__notification">7</span>
-                    </div>
+                    </div> <!-- PROFILE BOOKMARK ICON END -->
 
-                    <div class="user-nav__icon-box">
+                    <div class="user-nav__icon-box"> <!-- PROFILE CHAT ICON -->
                         <svg class="user-nav__icon">
                             <use xlink:href="img/sprite.svg#icon-chat"></use>
                         </svg>
                         <span class="user-nav__notification">13</span>
-                    </div>
+                    </div> <!-- PROFILE CHAT ICON END -->
 
-                    <div class="user-nav__user">
+                    <div class="user-nav__user"> <!-- PROFILE PICTURE ICON -->
                         <img src="img/user.jpg" alt="User photo" class="user-nav__user-photo">
                         <span class="user__nav__user-name">Bern</span>
-                    </div>
-                </nav>
-            </header>
+                    </div> <!-- PROFILE PICTURE ICON END -->
+                </nav> <!-- USER NAV ICONS END -->
+            </header> <!-- PAGE HEADER END -->
 
             <div class="content">
-                <nav class="sidebar">
-                    Navigation
-                </nav>
+                <nav class="sidebar"> <!-- SIDE NAV BAR -->
+                    <ul class="side-nav">
+                        <li class="side-nav__item side-nav__item--active">
+                            <a href="#" class="side-nav__link"> <!-- HOTEL NAV LINK -->
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-home"></use>
+                                </svg>
+                                <span>Hotel</span>
+                            </a> <!-- HOTEL NAV LINK END -->
+                        </li>
+
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link"> <!-- FLIGHT NAV LINK -->
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                                </svg>
+                                <span>Flight</span>
+                            </a> <!-- FLIGHT NAV LINK END -->
+                        </li>
+
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link"> <!-- CAR RENTAL NAV LINK -->
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-key"></use>
+                                </svg>
+                                <span>Car rental</span>
+                            </a> <!-- CAR RENTAL NAV LINK END -->
+                        </li>
+
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link"> <!-- TOURS NAV LINK -->
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-map"></use>
+                                </svg>
+                                <span>Tours</span>
+                            </a> <!-- TOURS NAV LINK END -->
+                        </li>
+                    </ul>
+
+                    <div class="legal"> <!-- LEGAL CONTENT -->
+                        &copy; 2021 Trillo. All rights reserved.
+                        
+                        <div class="legal__attribution">
+                            Built by <a href="https://berncodes.dev" class="legal__attribution-link" target="_blank">BernCodes</a> and designed with <i class="fas fa-heart legal__attribution-icon"></i> by <a href="https://twitter.com/jonasschmedtman" class="legal__attribution-link" target="_blank">Jonas Schmedtmann</a>.
+                        </div>
+                    </div> <!-- LEGAL CONTENT END -->
+                </nav> <!-- SIDE NAV BAR END -->
 
                 <main class="hotel-view">
                     Hotel view
