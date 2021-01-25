@@ -28,7 +28,6 @@ Project was built using the best practices of Sass 7-1 architecture by separatin
 **_Floats was used to built this webpage for the purpose of gaining a better understanding of how they work in styling. It is, however, NOT a preferred option for page layouts anymore but rather the usage of modern CSS features such Flexbox and Grid are highly recommended & favorable._**
 
 <br />
-<br />
 
 ### :european_castle: Nexter
 
@@ -40,7 +39,6 @@ A webpage of a real estate company call 'Nexter' that specializes in luxury home
 
 Sections of the webpages are separated into individual components for more maintainable styling. The base layout of the webpage was built mainly with CSS Grid and a mixture of Flexbox for its content positioning.
 
-<br />
 <br />
 
 ### :beach_umbrella: Trillo
