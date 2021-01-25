@@ -1,6 +1,7 @@
 .container {
-    background-color: var(--color-gray-light-2);
+    background-color: var(--color-gray-light-1);
     box-shadow: var(--shadow-dark);
+    min-height: 50rem;
     max-width: 120rem;
     margin: 8rem auto;
 }
@@ -42,7 +43,7 @@
 
 .description {
     flex: 0 0 60%;
-    margin-right: .5rem;
+    margin-right: 4.5rem;
     padding: 3rem;
     background-color: #fff;
     box-shadow: var(--shadow-light);
