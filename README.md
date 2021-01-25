@@ -1,7 +1,7 @@
 <p align="center">
-  <a href="#mountainsnow-natours">Natours</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#europeancastle-nexter">Nexter</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#beachumbrella-trillo">Trillo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#mountain_snow-natours">Natours</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#european_castle-nexter">Nexter</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#beach_umbrella-trillo">Trillo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-disclaimer">Disclaimer</a>
 </p>
 
