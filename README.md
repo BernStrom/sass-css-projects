@@ -1,5 +1,4 @@
 <p align="center">
-  <a href="#wave-intros">Intros</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#mountainsnow-natours">Natours</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#europeancastle-nexter">Nexter</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#beachumbrella-trillo">Trillo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -11,8 +10,6 @@
 <h1 align="center">
   <em>Responsive Sass & CSS Webpages</em>
 </h1>
-
-## :wave: Intros!
 
 A list of project directories built with HTML & Sass - a pre-processor that compiles to CSS. All projects listed here are entirely JavaScript-free and doesn't come with any backend development attached. 
 
@@ -56,7 +53,6 @@ A webpage of a travel company that offers various services such flights, hotels,
 
 The layout of the webpage was built mainly on Flebox along with other modern CSS features such as variables, functions, etc.
 
-<br />
 <br />
 
 ## :memo: Disclaimer
