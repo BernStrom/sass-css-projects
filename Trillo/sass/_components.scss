@@ -273,8 +273,17 @@
     cursor: pointer;
     transition: all .2s;
 
+    & span {
+        margin-left: 3px;
+        transition: margin-left .2s;
+    }
+
     &:hover {
         color: var(--color-gray-dark-1);
+
+        span {
+            margin-left: 8px;
+        }
     }
 
     &:focus {
@@ -346,10 +355,6 @@
         margin-right: auto;
     }
 
-    &__friends {
-
-    }
-
     &__photo {
         height: 4rem;
         width: 4rem;
@@ -360,5 +365,68 @@
         &:not(:last-child) {
             margin-right: -1.5rem;
         }
+    }
+}
+
+/*********** USER REVIEWS ***********/
+.review {
+    background-color: #fff;
+    box-shadow: var(--shadow-light);
+    padding: 4rem;
+    margin-left: 4rem;
+    margin-bottom: 3.5rem;
+    position: relative;
+    overflow: hidden;
+
+    &__text {
+        margin-bottom: 2rem;
+        position: relative;
+        z-index: 10;
+    }
+
+    &__user {
+        display: flex;
+        align-items: center;
+    }
+
+    &__photo {
+        height: 4.5rem;
+        width: 4.5rem;
+        margin-right: 1.5rem;
+        border-radius: 50%;
+    }
+
+    &__user-box {
+        margin-right: auto;
+    }
+
+    &__user-name {
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: .4rem;
+    }
+
+    &__user-date {
+        font-size: 1rem;
+        color: var(--color-gray-dark-3);
+    }
+
+    &__rating {
+        color: var(--color-primary);
+        font-size: 2.2rem;
+        font-weight: 300;
+    }
+    
+    &::before {
+        content: "\201C";
+        position: absolute;
+        top: -2.75rem;
+        left: -1rem;
+        font-size: 20rem;
+        font-family: sans-serif;
+        color: var(--color-gray-light-2);
+        line-height: 1;
+        z-index: 1;
     }
 }
