@@ -18,7 +18,7 @@ A list of project directories built with HTML & Sass - a pre-processor that comp
 
 In other words, it is entirely built for aesthetics purposes in mind and to gain a deeper understanding of Sass with moderen CSS.
 
-## :mountain_snow: Natours
+### :mountain_snow: Natours
 
 <p align="center">
     <img width="100%" src="Natours/img/Natours-screenshot.png" alt="Natours screenshot"> 
@@ -30,7 +30,10 @@ Project was built using the best practices of Sass 7-1 architecture by separatin
 
 **_Floats was used to built this webpage for the purpose of gaining a better understanding of how they work in styling. It is, however, NOT a preferred option for page layouts anymore but rather the usage of modern CSS features such Flexbox and Grid are highly recommended & favorable._**
 
-## :european_castle: Nexter
+<br />
+<br />
+
+### :european_castle: Nexter
 
 <p align="center">
     <img width="100%" src="Nexter/img/Nexter-screenshot.png" alt="Nexter screenshot"> 
@@ -40,7 +43,10 @@ A webpage of a real estate company call 'Nexter' that specializes in luxury home
 
 Sections of the webpages are separated into individual components for more maintainable styling. The base layout of the webpage was built mainly with CSS Grid and a mixture of Flexbox for its content positioning.
 
-## :beach_umbrella: Trillo
+<br />
+<br />
+
+### :beach_umbrella: Trillo
 
 <p align="center">
     <img width="100%" src="Trillo/img/Trillo-screenshot.png" alt="Trillo screenshot"> 
@@ -49,6 +55,9 @@ Sections of the webpages are separated into individual components for more maint
 A webpage of a travel company that offers various services such flights, hotels, car rentals, etc. It contains a mockup of a signed-in user with friends who likes a particular hotel listing with its ratings.
 
 The layout of the webpage was built mainly on Flebox along with other modern CSS features such as variables, functions, etc.
+
+<br />
+<br />
 
 ## :memo: Disclaimer
 The contents of these pages are provided as an information guide only. While every effort is made in preparing the material for publication, no responsibility is accepted by or on behalf of the owner(s) for any errors, omissions or misleading statements on these pages or any site to which these pages connect. Although every effort is made to ensure the reliability of listed sites this cannot be taken as an endorsement of these sites.
