@@ -15,7 +15,7 @@ A list of project directories built with HTML & Sass - a pre-processor that comp
 
 In other words, it is entirely built for aesthetics purposes in mind and to gain a deeper understanding of Sass with moderen CSS.
 
-**IMPORTANT NOTE:** _The projects here are **NOT** deployed. To open and view the projects listed here, simply type <code>git clone https://github.com/BernStrom/sass-css-projects.git</code> onto your command line to clone a copy of this repository to your local computer or download a zip file this repository by clicking the green "Code" button at the top right the page._
+**IMPORTANT NOTE:** _The projects here are **NOT** deployed. To open and view the projects listed here, simply type <code>git clone https://github.com/BernStrom/sass-css-projects.git</code> onto your command line to clone a copy of this repository to your local computer or download a .zip file of this repository by clicking on the green "Code" button at the top right the page._
 
 ### :mountain_snow: Natours
 
